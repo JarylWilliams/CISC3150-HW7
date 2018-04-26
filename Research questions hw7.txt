@@ -1,0 +1,14 @@
+Research Questions:
+
+1. The reason for this is that since the compiler detects that we are throwing NullPointerException which is unchecked. It doesn't
+need to check the exception again so when it is caught as a throwable the compiler continues to ignore the exception along with
+declaration type. 
+Sources:
+https://docs.oracle.com/javase/tutorial/essential/exceptions/runtime.html
+https://www.tutorialspoint.com/java/java_exceptions.htm
+
+2. You are able to call the default implementation of a method in an interface with some weird syntax because in java 9 default 
+methods can provide the ability to extend interfaces without the need to modify existing implementations. 
+Sources:
+https://stackoverflow.com/questions/19976487/explicitly-calling-a-default-method-in-java
+https://www.tutorialspoint.com/java8/java8_default_methods.htm

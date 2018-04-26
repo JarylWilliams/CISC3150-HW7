@@ -1,0 +1,37 @@
+Microsoft Windows [Version 10.0.16299.371]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\Jaryl>cd desktop
+
+C:\Users\Jaryl\Desktop>cd calculator
+
+C:\Users\Jaryl\Desktop\Calculator>cd src
+
+C:\Users\Jaryl\Desktop\Calculator\src>javac Calculator.java
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " ( 4 + 3 ) * 7 "
+49
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " 7 + 7 * 3 "
+28
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " 9 * ( 45 + 2 ) - 11 "
+412
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " 3.5 / 1.5 "
+2.3333333333333335
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " 15 / 0 "
+Divide by Zero ERROR
+null
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " 1 & 1 "
+This operation is not supported
+null
+
+C:\Users\Jaryl\Desktop\Calculator\src>java Calculator " 3 * "
+Please enter a number. Thank you
+null
+
+
+C:\Users\Jaryl\Desktop\Calculator\src>
